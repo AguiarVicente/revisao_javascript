@@ -6,5 +6,5 @@
 
 
 ```
-> Meta de finalizar a revisão do conteúdo até o final do mês de Maio/2020
+> Meta de finalizar a revisão do conteúdo até o final do mês de Junho/2020
 ```
