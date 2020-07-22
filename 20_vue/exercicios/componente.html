@@ -7,9 +7,43 @@
     <script src="/js/vue.min.js"></script>
 </head>
 <body class="exercicio">
-
+    <div id="app">
+        <saudacao nome="Ana"></saudacao>
+        <saudacao nome="Bia"></saudacao>
+        <contador></contador>
+        <contador></contador>
+    </div>
     <script>
-        // ...
+        Vue.component('saudacao', {
+            props: ['nome'],
+            template: `
+                <div> Bom dia {{nome}}!</div>
+            `
+        })
+
+        Vue.component('contador', {
+            data: function() {
+                return {
+                    contador: 0
+                }
+            },
+            methods: {
+                add() {
+                    this.contador++
+                }
+            },
+            template: `
+                <div>
+                    <button @click="contador--">-1</button>
+                    <span>{{contador}}</span>
+                    <button @click="add">+1</button>
+                </div>
+            `
+        })
+
+        new Vue({
+            el: '#app'
+        })
     </script>
 </body>
 </html>
