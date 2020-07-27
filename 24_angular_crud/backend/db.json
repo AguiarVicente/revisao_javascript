@@ -19,6 +19,21 @@
       "name": "mouse gamer",
       "price": 150.9,
       "id": 4
+    },
+    {
+      "name": "Televisão 55\"",
+      "price": "4990.90",
+      "id": 5
+    },
+    {
+      "name": "Mac Pro",
+      "price": "56990.00",
+      "id": 6
+    },
+    {
+      "name": "Samsung S20+",
+      "price": "5990.90",
+      "id": 7
     }
   ]
 }
