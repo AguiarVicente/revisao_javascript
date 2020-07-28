@@ -1,0 +1,16 @@
+mongo -version -> mostra a versão do Mongo
+monogd -> inicia o servidor local do mongo
+mongo -> inicia o Mongo
+help
+db. + tab*2 -> mostra os comandos do Mongo
+show dbs -> mostra os bancos existentes
+use nome_do_banco -> passa a usar o banco mencionado
+db.createCollection('nome_da_collection') -> cria uma coleção de dados
+
+show collections -> exibe as collections criadas
+db.nome_collection.drop() -> exclui a collection
+
+db.nome_da_collection.insertOne({}) -> insere um valor no banco 'nome_da_collection
+db.nome_da_collection.save({}) -> também insere dados no banco
+db.nome_da_collection.find() -> mostra dos dados do banco
+db.nome_da_collection.find().pretty() -> mostra dos dados do banco formatado

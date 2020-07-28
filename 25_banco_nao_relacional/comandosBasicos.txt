@@ -1,0 +1,15 @@
+Socorro
+cls
+show dbs
+use ui
+show dbs
+db.createCollection ('estados')
+show dbs
+mostrar coleções
+db.createCollection ('Estados')
+mostrar coleções
+db.Estados.drop ()
+mostrar coleções
+db.estados.drop ()
+mostrar coleções
+show dbs

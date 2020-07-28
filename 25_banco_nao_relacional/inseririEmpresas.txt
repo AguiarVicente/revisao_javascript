@@ -1,0 +1,7 @@
+ObjectId("5f208b00de403eadc775ed0b") SP
+ObjectId("5f208b00de403eadc775ed08") Campinas
+ObjectId("5f208b00de403eadc775ed09") Garulhos
+ObjectId("5f208b00de403eadc775ed0a") Sorocaba
+
+db.empresas.insert({ nome: 'Vale', cidadeId: ObjectId("5f208b00de403eadc775ed0a")})
+db.empresas.insert({ nome: 'Bradesco', estadoId: ObjectId("5f208b00de403eadc775ed0b")})
