@@ -1,0 +1,15 @@
+Tipos de Join
+
+A ^ B = A interseção B
+
+inner join -> interseção entre bancos ( tem relação entre chaves primarias e estrangeiras )
+
+outer join -> esta fora da interseção entre os bancos
+
+left join -> comum ao inner mais os dados do banco a esquerda
+outer left join
+
+right join -> comum ao inner mais os dados do banco a direita
+outer right join
+
+full join -> união das duas tabelas **não suportado no mysql**
